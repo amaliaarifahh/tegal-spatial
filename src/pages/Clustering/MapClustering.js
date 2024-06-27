@@ -24,13 +24,23 @@ const MapClustering = () => {
     const fetchData = async () => {
       try {
         const demo_response = await fetch(demografi);
+        if (!demo_response.ok) {
+          throw new Error("Gagal mengambil data Demografi GeoJSON");
+        }
         const demo_data = await demo_response.json();
         setDemografiData(demo_data);
         console.log("data demografi:", demo_data);
-        const initialCounty = demo_data.features[104].properties["WADMKC"];
-        setActiveCounty(initialCounty);
+
+        // Pastikan demo_data.features memiliki indeks yang cukup
+        const initialCounty =
+          demo_data.features && demo_data.features[104]?.properties?.WADMKC;
+        if (initialCounty) {
+          setActiveCounty(initialCounty);
+        } else {
+          throw new Error("Data Demografi tidak lengkap atau tidak valid");
+        }
       } catch (error) {
-        console.error("Gagal mengambil data Demografi GeoJSON :", error);
+        console.error("Gagal mengambil data Demografi GeoJSON:", error);
       }
     };
     fetchData();

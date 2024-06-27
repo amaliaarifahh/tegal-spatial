@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/tegal-spatial/static/css/main.1ff76413.css",
+    "main.js": "/tegal-spatial/static/js/main.b27778e9.js",
+    "static/media/map.png": "/tegal-spatial/static/media/map.c3fe0bd37e750c0fccd1.png",
+    "static/media/demografi-tegal2.geojson": "/tegal-spatial/static/media/demografi-tegal2.ce697d34e640ccf209c8.geojson",
+    "static/media/clustering-tegal.geojson": "/tegal-spatial/static/media/clustering-tegal.082c23a3e4bb66a9fec3.geojson",
+    "static/media/hindu.png": "/tegal-spatial/static/media/hindu.d8a8180ca6eed99ed494.png",
+    "static/media/buddha.png": "/tegal-spatial/static/media/buddha.4b0b5d6ebece51217c28.png",
+    "static/media/kawin.png": "/tegal-spatial/static/media/kawin.451106ac22d694139ced.png",
+    "static/media/katolik.png": "/tegal-spatial/static/media/katolik.d05febd5bc38c2999b78.png",
+    "static/media/nelayan.png": "/tegal-spatial/static/media/nelayan.0cd109bff1721f9bc425.png",
+    "static/media/wiraswasta.png": "/tegal-spatial/static/media/wiraswasta.da4eef23e66df832f090.png",
+    "static/media/tidak-kerja.png": "/tegal-spatial/static/media/tidak-kerja.d88bd63939429322b601.png",
+    "static/media/tidak-sekolah.png": "/tegal-spatial/static/media/tidak-sekolah.39c2492ffcb4c3d575a5.png",
+    "static/media/usia-sekolah.png": "/tegal-spatial/static/media/usia-sekolah.baa230cadd9be1cdd11d.png",
+    "static/media/kelahiran.png": "/tegal-spatial/static/media/kelahiran.ad371728650e321248de.png",
+    "static/media/pensiunan.png": "/tegal-spatial/static/media/pensiunan.1f147e526fffa96eae69.png",
+    "static/media/luas-wilayah.png": "/tegal-spatial/static/media/luas-wilayah.8908e713b2dd7c4efe12.png",
+    "static/media/goldar.png": "/tegal-spatial/static/media/goldar.bf01f6d78dd517326bd0.png",
+    "static/media/islam.png": "/tegal-spatial/static/media/islam.0c47ae05a9be1307f51f.png",
+    "static/media/cerai.png": "/tegal-spatial/static/media/cerai.d5f3e7764fa668ff7c01.png",
+    "static/media/kelompok-usia.png": "/tegal-spatial/static/media/kelompok-usia.4aef132fc41e064073be.png",
+    "static/media/guru.png": "/tegal-spatial/static/media/guru.b1ee73a40ee9352c7ef5.png",
+    "static/media/pengacara.png": "/tegal-spatial/static/media/pengacara.7c9bd7f0cc3998f0de25.png",
+    "static/media/kematian.png": "/tegal-spatial/static/media/kematian.b1825987ad58c464676e.png",
+    "static/media/rumah-tangga.png": "/tegal-spatial/static/media/rumah-tangga.fd4beaaf254fea154d91.png",
+    "static/media/perdagangan.png": "/tegal-spatial/static/media/perdagangan.4ae5accefa8f07a770e3.png",
+    "static/media/jumlah-desa.png": "/tegal-spatial/static/media/jumlah-desa.dad2371daa4ed94f5c1f.png",
+    "static/media/populasi.png": "/tegal-spatial/static/media/populasi.33e7df0963941edbeb70.png",
+    "static/media/belum-kawin.png": "/tegal-spatial/static/media/belum-kawin.669d2ae22bd1e8fc2e08.png",
+    "static/media/pelajar.png": "/tegal-spatial/static/media/pelajar.8b2de6c5d2d117f3a232.png",
+    "index.html": "/tegal-spatial/index.html",
+    "static/media/layer.svg": "/tegal-spatial/static/media/layer.e3843816f9e1b0cc5e4ba24cccf48b21.svg",
+    "main.1ff76413.css.map": "/tegal-spatial/static/css/main.1ff76413.css.map",
+    "main.b27778e9.js.map": "/tegal-spatial/static/js/main.b27778e9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1ff76413.css",
+    "static/js/main.b27778e9.js"
+  ]
+}

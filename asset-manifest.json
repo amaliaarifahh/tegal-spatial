@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tegal-spatial/static/css/main.1ff76413.css",
-    "main.js": "/tegal-spatial/static/js/main.b27778e9.js",
+    "main.js": "/tegal-spatial/static/js/main.035712f7.js",
     "static/media/map.png": "/tegal-spatial/static/media/map.c3fe0bd37e750c0fccd1.png",
     "static/media/demografi-tegal2.geojson": "/tegal-spatial/static/media/demografi-tegal2.ce697d34e640ccf209c8.geojson",
     "static/media/clustering-tegal.geojson": "/tegal-spatial/static/media/clustering-tegal.082c23a3e4bb66a9fec3.geojson",
@@ -33,10 +33,10 @@
     "index.html": "/tegal-spatial/index.html",
     "static/media/layer.svg": "/tegal-spatial/static/media/layer.e3843816f9e1b0cc5e4ba24cccf48b21.svg",
     "main.1ff76413.css.map": "/tegal-spatial/static/css/main.1ff76413.css.map",
-    "main.b27778e9.js.map": "/tegal-spatial/static/js/main.b27778e9.js.map"
+    "main.035712f7.js.map": "/tegal-spatial/static/js/main.035712f7.js.map"
   },
   "entrypoints": [
     "static/css/main.1ff76413.css",
-    "static/js/main.b27778e9.js"
+    "static/js/main.035712f7.js"
   ]
 }

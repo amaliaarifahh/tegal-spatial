@@ -2,8 +2,6 @@ import React, { useRef, useEffect } from "react";
 import mapboxgl from "mapbox-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 import "./Cmapboxsection.css";
-import PendidikanGeoJSON from "../../data/Pendidikan.geojson";
-import KesehatanGeoJSON from "../../data/Kesehatan.geojson"; // Ganti dengan path yang sesuai
 
 mapboxgl.accessToken =
   "pk.eyJ1IjoiYW1hbGlhYXJpZmFoaCIsImEiOiJjbDNsOTlrcXYwaWQxM2lxYWt2ZmU4eGUyIn0.n3MrJgj9gN8li-IiQJOluA";
@@ -30,7 +28,7 @@ const MapboxSection = ({ selectedLayer }) => {
     map.current.on("load", () => {
       map.current.addSource("education", {
         type: "geojson",
-        data: PendidikanGeoJSON,
+        data: "/data/Pendidikan.geojson",
         cluster: true,
         clusterMaxZoom: 14,
         clusterRadius: 50,
@@ -38,7 +36,7 @@ const MapboxSection = ({ selectedLayer }) => {
 
       map.current.addSource("healthcare", {
         type: "geojson",
-        data: KesehatanGeoJSON,
+        data: "/data/Kesehatan.geojson",
         cluster: true,
         clusterMaxZoom: 14,
         clusterRadius: 50,

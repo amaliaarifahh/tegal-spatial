@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import { Marker, Map as ReactMapGL } from "react-map-gl";
 import useSupercluster from "use-supercluster";
-import pendidikanData from "../../../data/Pendidikan.geojson";
+import pendidikanData from "/tegal-spatial/data/Pendidikan.geojson";
 
 const AnalisisClustering = ({ mapboxAccessToken }) => {
   const mapRef = useRef();

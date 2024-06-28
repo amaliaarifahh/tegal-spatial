@@ -62,7 +62,7 @@ const MapClustering = () => {
 
     tour.addStep({
       id: "step1",
-      text: "ini adalah pilihan tema titik fasilitas yang dapat ditampilkan dalam bentuk clustering",
+      text: "Ini adalah bagian untuk memilih fasilitas yang ingin dimunculkan pada peta",
       attachTo: {
         element: graphSectionRef.current,
         on: "top",
@@ -77,7 +77,7 @@ const MapClustering = () => {
 
     tour.addStep({
       id: "step2",
-      text: "ini adalah dropdown untuk memilih kecamatan yang ingin ditampilkan dalam section informasi data",
+      text: "Klik disini untuk memilih kecamatan yang ingin ditampilkan pada bagian informasi data",
       attachTo: {
         element: graphSectionRef.current,
         on: "bottom",

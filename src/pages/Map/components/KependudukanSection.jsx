@@ -7,8 +7,8 @@ import "./topicsection.css";
 //|| ICON
 import desaIcon from "../../../assets/icon/Kependudukan/jumlah-desa.png";
 import luasIcon from "../../../assets/icon/Kependudukan/luas-wilayah.png";
-import populasiIcon from "../../../assets/icon/Kependudukan/populasi.png";
-import kepalakeluargaIcon from "../../../assets/icon/Kependudukan/kepala-keluarga.png";
+import populasiIcon from "../../../assets/icon/Kependudukan/penduduk.png";
+import kepalakeluargaIcon from "../../../assets/icon/Kependudukan/kepalakeluarga.png";
 import kepadatanIcon from "../../../assets/icon/Kependudukan/kepadatan.png";
 import perpindahanIcon from "../../../assets/icon/Kependudukan/perpindahan.png";
 import kematianIcon from "../../../assets/icon/Kependudukan/kematian.png";
@@ -277,7 +277,7 @@ const KependudukanSection = ({
           activeLayer={activeLayer}
         /> */}
         <TopicItem
-          topicText={"Jumlah Desa"}
+          topicText={"Jumlah Desa/Kelurahan"}
           data={geografis && geografis[1]}
           label={"Desa"}
           layer={"Jumlah Desa"}

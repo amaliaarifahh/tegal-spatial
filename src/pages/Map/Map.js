@@ -49,14 +49,14 @@ const Map = () => {
 
     tour.addStep({
       id: "step1",
-      text: "ini adalah dropdown untuk memilih kecamatan yang ingin ditampilkan dalam section informasi data",
+      text: "Klik disini untuk memilih kecamatan yang ingin ditampilkan pada bagian informasi data",
       attachTo: {
         element: graphSectionRef.current,
         on: "bottom",
       },
       buttons: [
         {
-          text: "Next",
+          text: "Selanjutnya",
           action: tour.next,
         },
       ],
@@ -64,14 +64,14 @@ const Map = () => {
 
     tour.addStep({
       id: "step2",
-      text: "ini adalah section informasi data kependudukan. Anda dapat menekan ikon layer untuk menampilkan data 3D",
+      text: "Ini adalah bagian informasi data kependudukan. Anda dapat menekan ikon pada setiap data untuk menampilkannya dalam peta",
       attachTo: {
         element: graphSectionRef.current,
         on: "center",
       },
       buttons: [
         {
-          text: "Next",
+          text: "Selanjutnya",
           action: tour.next,
         },
       ],
@@ -79,14 +79,14 @@ const Map = () => {
 
     tour.addStep({
       id: "step3",
-      text: "ini adalah bagian peta 3D berdasarkan layer data yang dipilih. Anda dapat melakukan interaksi dengan fitur zoom, dimensi 2D/3D, ganti basemap, dan tampilan label kecamatan.",
+      text: "Ini adalah bagian peta. Anda dapat berinteraksi dengan peta menggunakan fitur perbesar, pengaturan dimensi, tema pada peta, dan label kecamatan",
       attachTo: {
         element: mapboxSectionRef.current,
         on: "center",
       },
       buttons: [
         {
-          text: "Finish",
+          text: "Selesai",
           action: tour.complete,
         },
       ],

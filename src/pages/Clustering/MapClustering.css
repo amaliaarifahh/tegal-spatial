@@ -44,6 +44,8 @@
 .shepherd-theme-custom .shepherd-content {
   background-color: #fff !important;
   color: #27374d !important;
+  font-size: 16px;
+  text-align: left;
 }
 
 .shepherd-theme-custom .shepherd-button {

@@ -50,7 +50,19 @@ const config = {
       alignment: "right",
       hidden: false,
       style: "mapbox://styles/amaliaarifahh/clxvs8k5k00af01pf5fk8fky8",
-      title: "Profil Kabupaten Tegal",
+      title: (
+        <div
+          style={{
+            padding: "1px",
+            margin: "0px",
+            color: "#27374D",
+            textAlign: "left",
+            fontSize: "10px",
+          }}
+        >
+          <h2>Profil Kabupaten Tegal</h2>
+        </div>
+      ),
       description: (
         <div
           style={{
@@ -62,11 +74,11 @@ const config = {
         >
           <b>Kabupaten Tegal</b> termasuk salah satu wilayah di Jawa Tengah dan
           memiliki luas sebesar <b>983,9 km2</b> dengan <b>18 kecamatan</b>.
-          Berdasarkan geografinya, Kabupaten Tegal memiliki <b>daerah pantai</b>{" "}
-          di bagian utara, daerah <b>dataran rendah</b> yang meliputi sebagian
-          besar wilayah, dan memiliki daerah <b>dataran tinggi</b> di bagian
-          selatan dekat Gunung Slamet. Profil kependudukan di Kabupaten Tegal
-          beragam di setiap kecamatan karena perbedaan letak dan geografinya.
+          Berdasarkan geografinya, Kabupaten Tegal memiliki daerah pantai di
+          bagian utara, daerah dataran rendah yang meliputi sebagian besar
+          wilayah, dan memiliki daerah dataran tinggi di bagian selatan dekat
+          Gunung Slamet. Profil kependudukan di Kabupaten Tegal beragam di
+          setiap kecamatan karena perbedaan letak dan geografinya.
         </div>
       ),
       location: {
@@ -86,7 +98,19 @@ const config = {
       alignment: "left",
       hidden: false,
       style: "mapbox://styles/amaliaarifahh/clxvs5r8600xk01qr89p808dt",
-      title: "Gambaran Umum Kependudukan Kabupaten Tegal",
+      title: (
+        <div
+          style={{
+            padding: "1px",
+            margin: "0px",
+            color: "#27374D",
+            textAlign: "left",
+            fontSize: "10px",
+          }}
+        >
+          <h2>Gambaran Umum Kependudukan Kabupaten Tegal</h2>
+        </div>
+      ),
       description: (
         <div
           style={{
@@ -96,11 +120,9 @@ const config = {
             color: "#27374D",
           }}
         >
-          Penduduk Kabupaten Tegal tahun 2023 berdasarkan hasil proyeksi
-          penduduk interim 2020-2023 (Badan Pusat Statistik) adalah sebanyak{" "}
-          <b>1.654.836 jiwa. </b>Kepadatan penduduk di Kabupaten Tegal tahun
-          2022 sebesar <b>1.682 jiwa/km2</b> yang termasuk{" "}
-          <b>kategori sedang</b>.
+          Berdasarkan data dari Dinas Kependudukan dan Pencatatan Sipil per 31
+          Desember 2023, penduduk Kabupaten Tegal sebanyak <b>1.716.637 jiwa</b>{" "}
+          dengan kepadatan penduduk sebesar <b>1.745 jiwa/km2</b>.
         </div>
       ),
       location: {
@@ -120,7 +142,19 @@ const config = {
       alignment: "fully",
       hidden: false,
       style: "mapbox://styles/amaliaarifahh/clw3im14102kh01qp24y8594p",
-      title: "Fitur Tegal Spatial",
+      title: (
+        <div
+          style={{
+            padding: "1px",
+            margin: "0px",
+            color: "#27374D",
+            textAlign: "left",
+            fontSize: "10px",
+          }}
+        >
+          <h2>Fitur Tegal Spatial</h2>
+        </div>
+      ),
       description: (
         <div
           style={{

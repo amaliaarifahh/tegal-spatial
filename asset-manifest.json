@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/tegal-spatial/static/css/main.1ff76413.css",
-    "main.js": "/tegal-spatial/static/js/main.4220cea6.js",
+    "main.css": "/tegal-spatial/static/css/main.bbefdae8.css",
+    "main.js": "/tegal-spatial/static/js/main.41a3b4ee.js",
     "static/media/map.png": "/tegal-spatial/static/media/map.c3fe0bd37e750c0fccd1.png",
-    "static/media/demografi-tegal2.geojson": "/tegal-spatial/static/media/demografi-tegal2.ce697d34e640ccf209c8.geojson",
+    "static/media/demografi-tegal2.geojson": "/tegal-spatial/static/media/demografi-tegal2.5c832ee6998cfa268ef8.geojson",
     "static/media/clustering-tegal.geojson": "/tegal-spatial/static/media/clustering-tegal.082c23a3e4bb66a9fec3.geojson",
     "static/media/hindu.png": "/tegal-spatial/static/media/hindu.d8a8180ca6eed99ed494.png",
     "static/media/buddha.png": "/tegal-spatial/static/media/buddha.4b0b5d6ebece51217c28.png",
@@ -27,16 +27,15 @@
     "static/media/rumah-tangga.png": "/tegal-spatial/static/media/rumah-tangga.fd4beaaf254fea154d91.png",
     "static/media/perdagangan.png": "/tegal-spatial/static/media/perdagangan.4ae5accefa8f07a770e3.png",
     "static/media/jumlah-desa.png": "/tegal-spatial/static/media/jumlah-desa.dad2371daa4ed94f5c1f.png",
-    "static/media/populasi.png": "/tegal-spatial/static/media/populasi.33e7df0963941edbeb70.png",
     "static/media/belum-kawin.png": "/tegal-spatial/static/media/belum-kawin.669d2ae22bd1e8fc2e08.png",
     "static/media/pelajar.png": "/tegal-spatial/static/media/pelajar.8b2de6c5d2d117f3a232.png",
     "index.html": "/tegal-spatial/index.html",
     "static/media/layer.svg": "/tegal-spatial/static/media/layer.e3843816f9e1b0cc5e4ba24cccf48b21.svg",
-    "main.1ff76413.css.map": "/tegal-spatial/static/css/main.1ff76413.css.map",
-    "main.4220cea6.js.map": "/tegal-spatial/static/js/main.4220cea6.js.map"
+    "main.bbefdae8.css.map": "/tegal-spatial/static/css/main.bbefdae8.css.map",
+    "main.41a3b4ee.js.map": "/tegal-spatial/static/js/main.41a3b4ee.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ff76413.css",
-    "static/js/main.4220cea6.js"
+    "static/css/main.bbefdae8.css",
+    "static/js/main.41a3b4ee.js"
   ]
 }

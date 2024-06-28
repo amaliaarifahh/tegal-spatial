@@ -28,7 +28,7 @@ const MapboxSection = ({ selectedLayer }) => {
     map.current.on("load", () => {
       map.current.addSource("education", {
         type: "geojson",
-        data: "/tegal-spatial/data/Pendidikan.geojson",
+        data: "https://raw.githubusercontent.com/amaliaarifahh/tegal-spatial/main/public/data/Pendidikan.geojson",
         cluster: true,
         clusterMaxZoom: 14,
         clusterRadius: 50,
@@ -36,7 +36,7 @@ const MapboxSection = ({ selectedLayer }) => {
 
       map.current.addSource("healthcare", {
         type: "geojson",
-        data: "/tegal-spatial/data/Kesehatan.geojson",
+        data: "https://raw.githubusercontent.com/amaliaarifahh/tegal-spatial/main/public/data/Kesehatan.geojson",
         cluster: true,
         clusterMaxZoom: 14,
         clusterRadius: 50,

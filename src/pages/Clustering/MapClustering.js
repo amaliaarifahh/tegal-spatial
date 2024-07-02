@@ -69,7 +69,7 @@ const MapClustering = () => {
       },
       buttons: [
         {
-          text: "Next",
+          text: "Selanjutnya",
           action: tour.next,
         },
       ],
@@ -84,7 +84,7 @@ const MapClustering = () => {
       },
       buttons: [
         {
-          text: "Next",
+          text: "Selanjutnya",
           action: tour.next,
         },
       ],
@@ -99,7 +99,7 @@ const MapClustering = () => {
       },
       buttons: [
         {
-          text: "Finish",
+          text: "Selesai",
           action: tour.complete,
         },
       ],

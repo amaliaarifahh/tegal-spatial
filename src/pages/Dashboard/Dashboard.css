@@ -9,7 +9,7 @@
 }
 
 body {
-  min-height: 100vh;
+  min-height: 110vh;
 }
 
 .dashboard-page {
@@ -40,4 +40,32 @@ body {
   top: 52%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.dashboard-container iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 30px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive design */
+@media screen and (max-width: 850px) {
+  body {
+    min-height: 100vh;
+  }
+
+  .dashboard-page {
+    height: 100vh;
+  }
+
+  .dashboard-container {
+    height: 75%;
+  }
+
+  .dashboard-container iframe {
+    width: 100%;
+    height: 100%;
+  }
 }
